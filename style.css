@@ -1,0 +1,149 @@
+.ctr-title{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 3fr;
+    gap:10px;
+}
+
+.star{
+    grid-column: span 1;
+}
+
+.star-img{
+    max-width: 100%;
+}
+
+.name-txt1{
+    grid-area: 1/2/2/3;
+}
+
+.heading{
+    font-size: 12vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.name-txt2{
+    grid-area: 2/2/3/5;
+}
+#name{
+    color:#7FC7D9;
+}
+.coder-logo{
+    grid-area: 3/2/4/4;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img{
+    max-width: 100%;
+}
+
+.ctr-intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    margin-top: 100px;
+}
+.dp-img{
+    grid-area:1/2/2/3;
+    display: flex;
+    justify-content: center;
+}
+.dp{
+    max-width:50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.hello-ctr{
+    grid-area: 2/2/3/3;
+    display: flex;
+    justify-content: center;
+}
+.hello-ctr > *{
+    color:#7FC7D9;
+    font-size: 6vw;
+}
+.intro-para{
+    grid-area: 3/1/4/4;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.skills-ctr{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr ;
+    grid-template-rows: repeat(5,auto);
+}
+
+.skill-title{
+    grid-area: 1/2/1/4;
+    display: flex;
+    justify-content: center;
+}
+.skill-h1{
+    color:#7FC7D9;
+    font-size: 6vw;
+}
+.skill-stitle{
+    color:#7FC7D9;
+    font-size: 5vw;
+}
+.skill1-title{
+    grid-area: 2/2/3/4;
+}
+.simg1{
+    grid-area: 3/2/4/3;
+}
+.simg1 >*{
+    max-width: 100%;
+}
+.simg2{
+    grid-area: 5/2/6/3;
+}
+.simg2 >*{
+    max-width: 100%;
+}
+.skill2-title{
+    grid-area: 4/2/5/4;
+}
+.para1div{
+    grid-area: 3/3/4/4;
+}
+.para1div >*{
+    font-size: 2vw;
+}
+.para2div{
+    grid-area: 5/3/6/4;
+}
+.para2div >*{
+    font-size: 2vw;
+}
+
+.contactdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,auto);
+}
+.cttitlediv{
+    grid-area: 1/1/2/4;
+    display: flex;
+    justify-content: center;
+}
+.cttitle{
+    color:#7FC7D9;
+    font-size: 5vw;
+    text-align: center;
+}
+.ctmsgdiv{
+    grid-area: 2/1/3/4;
+}
+.ctmsg{
+    text-align: center;
+    font-size: 3vw;
+}
+.ctbtndiv{
+    grid-area:3/2/4/3;
+    display: flex;
+    justify-content: center;
+}
